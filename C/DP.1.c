@@ -14,6 +14,7 @@ int main(int argc, char const *argv[])
     printf("Value of *pc: %d\n\n", *pc);
 
     *pc = 2;
+    // c = 2;
     printf("Address of c: %u\n", &c);
     printf("Value of c: %d\n\n", c);
 
