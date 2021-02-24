@@ -1,3 +1,5 @@
+// infinity wrong for the recursion
+
 #include <stdio.h>
 
 int recurse(int i) {
