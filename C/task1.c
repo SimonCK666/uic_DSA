@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 long int factR(int n);
 
@@ -12,6 +13,7 @@ int main(int argc, char const *argv[])
     res = factR(n);
     printf("res: %d\n", res);
 
+	system("pause");
     return 0;
 }
 

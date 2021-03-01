@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+
 void reverseR(char *str, int length);
 
 int main(int argc, char const *argv[])
@@ -20,8 +22,9 @@ int main(int argc, char const *argv[])
     reverseR(str, num);
     printf("%s\n", str);
     printf("\n");
-    getchar();
+    // getchar();
 
+    system("pause");
 
     return 0;
 }
@@ -42,8 +45,6 @@ void reverseR(char *str, int length) {
     {
         return ;
     }
-    
-    
     
     
 }

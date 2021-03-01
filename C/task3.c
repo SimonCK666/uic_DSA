@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int GCD(int x, int y);
 void swap(int x, int y);
@@ -21,6 +22,8 @@ int main(int argc, char const *argv[])
     // call the function
     res = GCD(x, y);
     printf("Result: %d\n", res);
+
+    system("pause");
 
     return 0;
 }

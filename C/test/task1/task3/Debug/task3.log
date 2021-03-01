@@ -1,0 +1,32 @@
+﻿Build started 2021-02-25 10:26:49.
+     1>Project "E:\uic_DSA\C\test\task1\task3\task3.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\task3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\vs2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt task3.cpp
+         task3.cpp
+     1>e:\uic_dsa\c\test\task1\task3\task3.cpp(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>e:\uic_dsa\c\test\task1\task3\task3.cpp(14): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2010\vc\include\stdio.h(304) : see declaration of 'scanf'
+     1>e:\uic_dsa\c\test\task1\task3\task3.cpp(46): warning C4715: 'GCD' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\task3.exe.embed.manifest.res" Debug\task3_manifest.rc 
+       Link:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\uic_DSA\C\test\task1\Debug\task3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\task3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\uic_DSA\C\test\task1\Debug\task3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\uic_DSA\C\test\task1\Debug\task3.lib" /MACHINE:X86 Debug\task3.exe.embed.manifest.res
+         Debug\task3.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\task3.exe.embed.manifest" /manifest Debug\task3.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\task3.exe.embed.manifest.res" Debug\task3_manifest.rc 
+       LinkEmbedManifest:
+         D:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\uic_DSA\C\test\task1\Debug\task3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\task3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\uic_DSA\C\test\task1\Debug\task3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\uic_DSA\C\test\task1\Debug\task3.lib" /MACHINE:X86 Debug\task3.exe.embed.manifest.res
+         Debug\task3.obj
+         task3.vcxproj -> E:\uic_DSA\C\test\task1\Debug\task3.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\task3.unsuccessfulbuild".
+         Touching "Debug\task3.lastbuildstate".
+     1>Done Building Project "E:\uic_DSA\C\test\task1\task3\task3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
