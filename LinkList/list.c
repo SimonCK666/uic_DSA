@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 // Linked List Implementation
 
@@ -16,25 +17,25 @@ Node* head;
 
 // Implementation
 
-int IsEmpty(Node* head);
+bool IsEmpty(Node* head);
 Node* InsertNode(Node** phead, int index, double x);
 int FindNode(Node* head, double x);
 int DeleteNode(Node** phead, double x);
 void DisplayList(Node* head);
 void DestroyList(Node* head);
 
-int IsEmpty(Node* head)
+bool IsEmpty(Node* head)
 {
     if (head == NULL)
     {
         /* judge the Linked List is empty */
         printf("The Linked List is Empty!!\n");
-        return 1;
+        return true;
     } else
     {
         /* code */
         printf("The Listked List is not Empty!\n");
-        return 0;
+        return false;
     }
     
     
